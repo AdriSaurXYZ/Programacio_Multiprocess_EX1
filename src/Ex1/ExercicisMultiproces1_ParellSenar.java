@@ -1,4 +1,4 @@
-package Exercisi1;
+package Ex1;
 
 public class ExercicisMultiproces1_ParellSenar {
 

@@ -1,4 +1,4 @@
-package Exercisi1;
+package Ex1;
 
 import java.io.*;
 
@@ -20,7 +20,7 @@ public class ExercicisMultiproces1 {
                 int num = Integer.parseInt(input);
 
                 // Crear un procés Exercisi3.fill
-                ProcessBuilder builder = new ProcessBuilder("java", "src/Exercisi1/ExercicisMultiproces1_ParellSenar.java", Integer.toString(num));
+                ProcessBuilder builder = new ProcessBuilder("java", "src/Ex1/ExercicisMultiproces1_ParellSenar.java", Integer.toString(num));
 
                 // Redirigir entrada/sortida d'errors del procés Exercisi3.fill al procés Exercisi3.pare.Exercisi3.fill.pare
                 builder.redirectInput(ProcessBuilder.Redirect.INHERIT);

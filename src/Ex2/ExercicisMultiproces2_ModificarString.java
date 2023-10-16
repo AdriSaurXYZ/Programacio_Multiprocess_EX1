@@ -1,4 +1,4 @@
-package Exercisi2;
+package Ex2;
 import java.io.*;
 
 public class ExercicisMultiproces2_ModificarString {
